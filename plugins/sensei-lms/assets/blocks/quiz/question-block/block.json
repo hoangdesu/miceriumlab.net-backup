@@ -1,0 +1,34 @@
+{
+  "name": "sensei-lms/quiz-question",
+  "parent": [ "sensei-lms/quiz" ],
+  "category": "sensei-lms",
+  "supports": {
+    "html": false
+  },
+  "attributes": {
+    "id": {
+      "type": "integer"
+    },
+    "title": {
+      "type": "string"
+    },
+    "type": {
+      "type": "string",
+      "default": "multiple-choice"
+    },
+    "answer": {
+      "type": "object"
+    },
+    "options": {
+      "type": "object",
+      "default": {
+        "grade": 1
+      }
+    },
+    "editable": {
+      "type": "boolean",
+      "default": true,
+      "source": false
+    }
+  }
+}

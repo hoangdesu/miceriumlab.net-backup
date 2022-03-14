@@ -1,0 +1,1 @@
+<?php return array('dependencies' => array('wp-escape-html', 'wp-polyfill'), 'version' => '9964ce342c5db3089697c0c0f22bc0fd');

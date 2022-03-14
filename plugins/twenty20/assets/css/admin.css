@@ -1,0 +1,8 @@
+.mac_options_form span.submit{
+  margin: 0;
+  display: block;
+  padding: 5px 0;
+}
+.icon-twenty20 {
+  background-image: url('../images/icon-t20.png') !important;
+}

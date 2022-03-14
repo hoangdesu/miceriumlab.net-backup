@@ -1,0 +1,1 @@
+!function(){var e=document.querySelector("#sensei-custom-navigation");if(e){document.querySelector("#wpbody-content > .wrap").prepend(e);var n=document.querySelector(".wrap > h1.wp-heading-inline");n&&(n.style.display="none");var t=document.querySelector(".wrap > a.page-title-action");t&&(t.style.display="none")}}();
